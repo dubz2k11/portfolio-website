@@ -30,7 +30,24 @@ img{
   float: right;
 }
 #Projects{
-  text-align: center;
+  text-align:center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
 }
 footer{
   background-color: black;
